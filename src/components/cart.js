@@ -9,7 +9,6 @@ import img from '../utils/emptycart.png'
 const Cart=()=>{
     const cartitems =useContext(CartContext)
     const [cart,setCart] = useState([cartitems])
-    console.log(cart)
     const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
