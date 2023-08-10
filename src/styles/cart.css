@@ -1,0 +1,25 @@
+.emptycart{
+    margin: 7rem 10rem;
+}
+.cart{
+    margin-left: 0.9rem;
+}
+.cartimg{
+    width: 8rem;
+    height: 7.5rem;
+}
+
+/* media querys */
+
+@media screen and (max-width:720px) {
+    .emptycart{
+        margin: 18vh 25vw;
+    }
+    .cart{
+        margin-left: 0rem;
+    }
+    .cartimg{
+        width: 25vw;
+    }
+    
+}

@@ -1,0 +1,29 @@
+.trending1{
+    display: flex;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+.trending2{
+    width: 78%;
+}
+.trending3{
+    display: flex;
+    gap: 1.4rem;
+}
+
+/* media querys */
+@media screen and (max-width:720px) {
+    .trending1{
+        display: flex;
+        justify-content: center;
+        margin-left: 0.5rem;
+    }
+    .trending2{
+        width: 100%;
+    }
+    .trending3{
+        display: flex;
+        gap: 1rem;
+    }
+    
+}

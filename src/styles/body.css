@@ -1,0 +1,323 @@
+.featured{
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+.featured1{
+    display: flex;
+    gap: 0.8vw;
+}
+.tiles1{
+    width: 36rem;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+}
+.tiles2{
+    width: 17.75rem;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+}
+.tiles3{
+    width: 17.75rem;
+    height: 243px;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+}
+.featuredimg1:hover{
+    opacity: 0.5;
+    transition: all 0.3s ease-in;
+}
+.featuredimg1{
+    opacity: 0.7;
+    transition: all 0.3s ease-in;
+    position: absolute;
+    top: -6em;
+    width: 100%;
+}
+.featuredimg2:hover{
+    opacity: 0.5;
+    transition: all 0.3s ease-in;
+}
+.featuredimg2{
+    opacity: 0.7;
+    transition: all 0.3s ease-in;
+    height: 100%;
+}
+.featuredtext{
+    position: absolute;
+    left: 1.25rem;
+    bottom: 1.35rem;
+    color: white;
+    font-family: 'blinker';
+    font-weight: 600;
+    font-size: 2.375rem;
+}
+.tiles3n4{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.8vh;
+    align-items: center;
+}
+.proudproduct{
+    display: flex;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+.proudproduct1{
+    width: 78%;
+}
+.proudproduct2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+}
+.produproducthead{
+    font-family: 'blinker';
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+.banner1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+.banner2{
+    width: 40%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    background-color: #e9e9e9;
+    padding: 0 6.5rem;
+}
+.banner3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+.banner4{
+    width: 40%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    background-color: #e9e9e9;
+    padding: 0 6.5rem;
+}
+.bannerimg1{
+    width: 35rem;
+    height: 25rem;
+    object-fit: cover;
+}
+.bannerimg2{
+    width: 35rem;
+    height: 25rem;
+    object-fit: cover;
+}
+.bannerhead{
+    font-family: 'blinker';
+    font-weight: 600;
+    font-size: 2.1rem;
+}
+.bannerpara{
+    font-family: 'blinker';
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.shopnow{
+    width: 7.5rem;
+    height: 2.7rem;
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    font-size: 1.08rem;
+    cursor: pointer;
+    transition: all 0.15s;
+    border: 2px solid black;
+}
+.shopnow:hover{
+    color: black;
+    transition: all 0.15s;
+    background-color: white;
+    border: 2px solid black;
+}
+
+/* media querys */
+@media screen and (max-width:720px) {
+    .featured{
+        display: flex;
+        justify-content: center;
+        margin-top: 7rem;
+        margin-bottom: 7rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .featured1{
+        display: flex;
+        gap: 0.7rem;
+        flex-wrap: wrap;
+    }
+    .tiles3n4{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        row-gap: 0.7rem;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .tiles1{
+        width: 45vw;
+        height: 29vh;
+        overflow: hidden;
+        position: relative;
+        background-color: black;
+    }
+    .tiles2{
+        width: 45vw;
+        height: 29vh;
+        overflow: hidden;
+        position: relative;
+        background-color: black;
+    }
+    .tiles3{
+        width: 45vw;
+        height: 29vh;
+        overflow: hidden;
+        position: relative;
+        background-color: black;
+    }
+    .featuredimg1:hover{
+        opacity: 0.5;
+        transition: all 0.3s ease-in;
+    }
+    .featuredimg1{
+        opacity: 0.7;
+        transition: all 0.3s ease-in;
+        position: static;
+        top: 0em;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .featuredimg2:hover{
+        opacity: 0.5;
+        transition: all 0.3s ease-in;
+    }
+    .featuredimg2{
+        opacity: 0.7;
+        transition: all 0.3s ease-in;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .featuredtext{
+        position: absolute;
+        left: 1.25rem;
+        bottom: 0.5rem;
+        color: white;
+        font-family: 'blinker';
+        font-weight: 600;
+        font-size: 6.5vw;
+    }
+    .proudproduct{
+        display: flex;
+        justify-content: center;
+        margin-left: 1rem;
+    }
+    .proudproduct1{
+        width: 100%;
+    }
+    .proudproduct2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.4rem;
+    }
+    .produproducthead{
+        font-family: 'blinker';
+        font-weight: 600;
+        font-size: 8vw;
+        margin-bottom: 2.5rem;
+    }
+    .banner1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7rem;
+    }
+    .banner2{
+        width: 100%;
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        justify-content: center;
+        background-color: #e9e9e9;
+        padding: 0 2.5rem;
+        margin: 1.2rem;
+    }
+    .banner3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7rem;
+    }
+    .banner4{
+        width: 100%;
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        justify-content: center;
+        background-color: #e9e9e9;
+        padding: 0 2.5rem;
+        margin: 1.2rem;
+    }
+    .bannerimg1{
+        width: 0rem;
+        height: 0rem;
+    }
+    .bannerimg2{
+        width: 0rem;
+        height: 0rem;
+    }
+    .bannerhead{
+        font-family: 'blinker';
+        font-weight: 600;
+        font-size: 1.9rem;
+    }
+    .bannerpara{
+        font-family: 'blinker';
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.2;
+    }
+    .shopnow{
+        width: 7.5rem;
+        height: 2.7rem;
+        color: white;
+        background-color: black;
+        font-weight: 600;
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition: all 0.15s;
+        border: none;
+    }
+    .shopnow:hover{
+        color: black;
+        transition: all 0.15s;
+        background-color: white;
+    }
+    
+}

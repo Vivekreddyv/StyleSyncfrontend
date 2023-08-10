@@ -1,0 +1,146 @@
+.news{
+    background-color: #191919;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'blinker';
+    margin-top: 7rem;
+}
+.news1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newshead{
+    color: white;
+    margin-bottom: 20px;
+    font-family: 'blinker';
+    font-size: 2.3rem;
+}
+.news2{
+    display: flex;
+}
+.newsinput{
+    width: 230px;
+    height: 35px;
+    padding-left: 7px;
+    font-weight: 300;
+    font-size: 1rem;
+    color: rgba(0,0,0,0.593);
+    border: none;
+}
+.newsbtn{
+    width: 95px;
+    height: 35px;
+    margin-left: 7px;
+    font-size: 1.1rem;
+    border: none;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 170px;
+}
+.bottomlist{
+    display: flex;
+    gap: 2.5rem;
+}
+.bottomli{
+    color: white;
+    margin-top: 30px;
+    list-style: none;
+    font-family: 'blinker';
+    font-size: 1.15rem;
+}
+.bottomli:hover{
+    text-decoration: underline;
+}
+.design{
+    color: white;
+    margin-top: 30px;
+    font-family: 'blinker';
+    font-size: 1.1rem;
+}
+
+/* media querys */
+@media screen and (max-width:720px) {
+    .news{
+        background-color: #191919;
+        height: 280px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'blinker';
+        margin-top: 7rem;
+    }
+    .news1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .newshead{
+        color: white;
+        margin-bottom: 20px;
+        font-family: 'blinker';
+        font-size: 2.3rem;
+    }
+    .news2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 0.3rem;
+    }
+    .newsinput{
+        width: 230px;
+        height: 35px;
+        padding-left: 7px;
+        font-weight: 300;
+        font-size: 1rem;
+        color: rgba(0,0,0,0.593);
+        border: none;
+    }
+    .newsbtn{
+        width: 230px;
+        height: 35px;
+        margin-left: 0px;
+        font-size: 1.1rem;
+        border: none;
+
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        height: 170px;
+    }
+    .bottomlist{
+        display: flex;
+        gap: 5vw;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .bottomli{
+        color: white;
+        margin-top: 0px;
+        list-style: none;
+        font-family: 'blinker';
+        font-size: 1.15rem;
+        margin-right: 2vw;
+    }
+    .bottomli:hover{
+        text-decoration: underline;
+    }
+    .design{
+        color: white;
+        margin-top: 0px;
+        font-family: 'blinker';
+        font-size: 1.1rem;
+    }
+    
+}

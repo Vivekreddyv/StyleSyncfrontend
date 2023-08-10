@@ -1,0 +1,44 @@
+.signup{
+    margin-top: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup1{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.input{
+    width: 40vw;
+    height: 2.3rem;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+}
+.signupbtn1{
+    width: 6rem;
+    height: 2.5rem;
+    margin-top: 4vh;
+    border: none;
+    background-color: #02bb8f;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.signupbtn2{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #eb4c3d;
+    border: none;
+    border-radius: 3px;
+    margin-top: 4vh;
+    font-size: 1.3rem;
+    font-weight: 600;
+}

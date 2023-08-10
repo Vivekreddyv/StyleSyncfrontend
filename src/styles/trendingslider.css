@@ -1,0 +1,86 @@
+.slider1{
+    display: flex;
+    justify-content: space-around;
+    gap: 37rem;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+.slider2{
+    display: flex;
+    gap: 0.3rem;
+}
+.sliderhead{
+    font-family: 'blinker';
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.slider3{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    width: 88%;
+    margin-left: 1.29rem;
+}
+.slider3::-webkit-scrollbar{
+    display: none;
+}
+.sliderbtn{
+    background-color: #373737;
+    color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.1s;
+    border: none;
+}
+.sliderbtn:hover{
+    background-color: black;
+    transition: all 0.1s;
+}
+/* media querys */
+@media screen and (max-width:720px) {
+    .slider1{
+        display: flex;
+        justify-content: space-around;
+        gap: 5rem;
+        margin-top: 6rem;
+        margin-bottom: 3rem;
+    }
+    .slider2{
+        display: flex;
+        gap: 0.3rem;
+    }
+    .sliderhead{
+        font-family: 'blinker';
+        font-size: 7vw;
+        font-weight: 600;
+    }
+    .slider3{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        scroll-behavior: smooth;
+        width: 88%;
+        margin-left: 1.29rem;
+    }
+    .slider3::-webkit-scrollbar{
+        display: none;
+    }
+    .sliderbtn{
+        background-color: #373737;
+        color: white;
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: all 0.1s;
+        border: none;
+    }
+    .sliderbtn:hover{
+        background-color: black;
+        transition: all 0.1s;
+    }
+    
+}

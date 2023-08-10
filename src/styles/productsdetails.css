@@ -1,0 +1,323 @@
+.productdescname{
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: 'blinker';
+}
+.productdesc1{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+}
+.productdesc2{
+    margin-top: 2rem;
+}
+.productdesc3{
+    background-color: #e5e5e5;
+    width: 38%;
+    height: 30rem;
+    padding: 0 3rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+.productdesc4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.productdesc5{
+    display: flex;
+}
+.productdesc6{
+    display: flex;
+    justify-content: space-around;
+}
+.productdesc7{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 7rem;
+}
+.productdesc8{
+    background-color: #e5e5e5;
+    width: 23rem;
+    height: 6.3rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.3rem;
+    padding-top: 1rem;
+}
+.mainimg{
+    width: 437px;
+    height: 437px;
+}
+.hoverimg{
+    width: 119px;
+    height: 119px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+.hoverimg:hover{
+    border: 1px solid rgba(0, 0, 0, 0.341);
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.1);
+}
+.productdescription{
+    font-family: 'blinker';
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+.quantityhead{
+    font-family: 'blinker';
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.quantbtn{
+    width: 3.5rem;
+    height: 3.5rem;
+    font-weight: 300;
+    font-size: 2rem;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 0.2s;
+    background-color: white;
+}
+.quantbtn:hover{
+    transition: all 0.2s;
+    background-color: #e5e5e5;
+}
+.quantity{
+    width: 3.8rem;
+    height: 3.5rem;
+    padding-top: 0.3rem;
+    font-weight: 600;
+    font-family: 'blinker';
+    border-top: 1px solid black;
+    text-align: center;
+    background-color: #e5e5e5;
+    border-bottom: 1px solid black;
+    font-size: 1.7rem;
+}
+.totalquantity{
+    font-family: 'blinker';
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.addcart{
+    width: 14rem;
+    height: 3.5rem;
+    border: 2px solid black;
+    background-color: #e5e5e5;
+    font-family: 'blinker';
+    font-size: 1.2rem;
+    transition: all 0.2s;
+    font-weight: 600;
+    cursor: pointer;
+}
+.addcart:hover{
+    color: white;
+    transition: all 0.2s;
+    background-color: black;
+}
+.buynow{
+    width: 14rem;
+    height: 3.5rem;
+    font-family: 'blinker';
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    background-color: #b6002c;
+    transition: all 0.2s;
+    border: 2px solid #b6002c;
+    cursor: pointer;
+}
+.buynow:hover{
+    transition: all 0.2s;
+    color: #b6002c;
+    background-color: #e5e5e5;
+}
+.rupee{
+    font-size: 1.5rem;
+}
+.textureweightsize{
+    font-family: 'blinker';
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.textureweightsizedesc{
+    font-family: 'blinker';
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+/* media querys */
+@media screen and (max-width:720px) {
+    .productdescname{
+        margin-top: 8rem;
+        margin-bottom: 3vh;
+        text-align: center;
+        font-size: 8vw;
+        font-weight: 700;
+        font-family: 'blinker';
+    }
+    .productdesc1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+        align-items: center;
+    }
+    .productdesc2{
+        margin-top: 2rem;
+    }
+    .productdesc3{
+        background-color: #e5e5e5;
+        width: 90%;
+        height: 63vh;
+        padding: 0 5vw;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0rem;
+    }
+    .productdesc4{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .productdesc5{
+        display: flex;
+    }
+    .productdesc6{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5vw;
+        justify-content: space-around;
+    }
+    .productdesc7{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 6vh;
+        flex-direction: column;
+    }
+    .productdesc8{
+        background-color: #e5e5e5;
+        width: 90vw;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        padding-left: 1.3rem;
+        padding-top: 1rem;
+        margin-left: 5vw;
+    }
+    .mainimg{
+        width: 65vw;
+        height: 68vw;
+        margin-left: 5vw;
+    }
+    .hoverimg{
+        width: 20vw;
+        height: 8vh;
+        border: 1px solid transparent;
+        cursor: pointer;
+        margin-right: 1rem;
+    }
+    .hoverimg:hover{
+        border: 1px solid rgba(0, 0, 0, 0.341);
+        box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.1);
+    }
+    .productdescription{
+        font-family: 'blinker';
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+    .quantityhead{
+        font-family: 'blinker';
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    .quantbtn{
+        width: 3.5rem;
+        height: 3.5rem;
+        font-weight: 300;
+        font-size: 2rem;
+        border: 1px solid black;
+        cursor: pointer;
+        transition: all 0.2s;
+        background-color: white;
+    }
+    .quantbtn:hover{
+        transition: all 0.2s;
+        background-color: #e5e5e5;
+    }
+    .quantity{
+        width: 3.8rem;
+        height: 3.5rem;
+        padding-top: 0.6rem;
+        font-weight: 600;
+        font-family: 'blinker';
+        border-top: 1px solid black;
+        text-align: center;
+        background-color: #e5e5e5;
+        border-bottom: 1px solid black;
+    }
+    .totalquantity{
+        font-family: 'blinker';
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    .addcart{
+        width: 80vw;
+        height: 3.5rem;
+        border: 2px solid black;
+        background-color: #e5e5e5;
+        font-family: 'blinker';
+        font-size: 1.2rem;
+        transition: all 0.2s;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .addcart:hover{
+        color: white;
+        transition: all 0.2s;
+        background-color: black;
+    }
+    .buynow{
+        width: 80vw;
+        height: 3.5rem;
+        font-family: 'blinker';
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: white;
+        background-color: #b6002c;
+        transition: all 0.2s;
+        border: 2px solid #b6002c;
+        cursor: pointer;
+    }
+    .buynow:hover{
+        transition: all 0.2s;
+        color: #b6002c;
+        background-color: #e5e5e5;
+    }
+    .rupee{
+        font-size: 1.5rem;
+    }
+    .textureweightsize{
+        font-family: 'blinker';
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    .textureweightsizedesc{
+        font-family: 'blinker';
+        font-size: 1.1rem;
+        margin-top: 0vh;
+    }
+    
+    
+}

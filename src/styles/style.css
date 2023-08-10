@@ -1,0 +1,25 @@
+.productcard{
+    border: 2px solid rgba(0,0,0,.3);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.productcard:hover{
+    border: 2px solid black;
+    transition: all 0.2s;
+}
+
+
+.checkout{
+    font-family: 'blinker';
+    width: 12.5rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    background-color: white;
+    transition: all 0.3s;
+    margin-top: 2.5rem;
+}
+.checkout:hover{
+    color: white;
+    background-color: black;
+    transition: all 0.3s;
+}
