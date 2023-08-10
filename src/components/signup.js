@@ -12,7 +12,7 @@ const Signup=()=>{
     }
     const handlesubmit=async(e)=>{
         e.preventDefault()
-        const response=await fetch('https://stylesync-bie1.onrender.com/api/signup',{
+        const response=await fetch('https://stylesync-x9qb.onrender.com/api/signup',{
         method:'POST',
         headers:{
             "Content-Type":"application/json"
