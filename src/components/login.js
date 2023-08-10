@@ -10,7 +10,7 @@ const Login=()=>{
         setCredentials({...credentials,[event.target.name]:event.target.value})
     }
     const handlesubmit=async()=>{
-        const response=await fetch('https://stylesync-x9qb.onrender.com/api/loginuser',{
+        const response=await fetch('https://stylesync-28wp.onrender.com/api/loginuser',{
             method:'POST',
             headers:{
                 "Content-Type":"application/json"

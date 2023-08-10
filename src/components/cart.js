@@ -48,7 +48,7 @@ useEffect(() => {
 }, []);
 const handlecheckout=async(e)=>{
   e.preventDefault()
-  const response=await fetch('https://stylesync-x9qb.onrender.com/api/orderdata',{
+  const response=await fetch('https://stylesync-28wp.onrender.com/api/orderdata',{
     method:"POST",
     headers:{
       "Content-Type":"application/json"
