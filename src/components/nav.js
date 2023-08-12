@@ -24,9 +24,9 @@ const Nav =()=>{
             </Link>
             <div>
                 <ul className='navlist'>
-                    <Link to='/categories/all'><li className='navli'>CATEGORIES</li></Link>
+                    {/* <Link to='/categories/all'><li className='navli'>CATEGORIES</li></Link> */}
                     {(!localStorage.getItem("authtoken"))?
-                    <div style={{display:'flex',gap:'2vw'}}>
+                    <div className='loginsignup'>
                         <Link to='/signup'><li className='navli'>SIGNUP</li></Link>
                     <Link to='/login'><li className='navli'>LOGIN</li></Link>
                     </div>

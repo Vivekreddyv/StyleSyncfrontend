@@ -55,6 +55,10 @@ a:active { text-decoration: none; }
     width: 85px;
     height: 85px;
 }
+.loginsignup{
+    display: flex;
+    gap: 2vw;
+}
 
 /* media querys */
 @media screen and (max-width:720px) {
@@ -89,6 +93,10 @@ a:active { text-decoration: none; }
         width: 85px;
         height: 85px;
         margin-left: 2vw;
+    }
+    .loginsignup{
+        display: flex;
+        gap: 2vw;
     }
     
 }
