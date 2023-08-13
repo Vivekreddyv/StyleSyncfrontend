@@ -42,3 +42,30 @@
     font-size: 1.3rem;
     font-weight: 600;
 }
+@media screen and (max-width:720px) {
+    .signup{
+        margin-top: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .signup1{
+        width: 50vw;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0vw;
+    }
+    .test{
+        margin-bottom: 2rem;
+        margin-left: 0vw;
+    }
+    .input{
+        width: 80vw;
+        height: 2.3rem;
+        padding-left: 1rem;
+        font-size: 1.2rem;
+    }
+    
+}

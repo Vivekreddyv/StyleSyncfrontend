@@ -33,7 +33,7 @@ const Login=()=>{
         <div className="login">
         <div className="login1">
             <div>
-                <div style={{marginBottom:'2rem',marginLeft:'10vw'}}>
+                <div className="test" style={{}}>
                     <h4 style={{fontSize:'1.5rem'}}><span style={{fontWeight:'700',fontSize:'1.7rem'}}>Email:</span>&nbsp;test123@gmail.com</h4>
                     <h4 style={{fontSize:'1.5rem'}}><span style={{fontWeight:'700',fontSize:'1.7rem'}}>Password:</span>&nbsp;test1234</h4>
                 </div>

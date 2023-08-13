@@ -52,3 +52,35 @@
     transition: all 0.1s;
     background-color: #ff1500;
 }
+.test{
+    margin-bottom: 2rem;
+    margin-left: 10vw;
+}
+
+@media screen and (max-width:720px) {
+    .login{
+        margin-top: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login1{
+        width: 50vw;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0vw;
+    }
+    .test{
+        margin-bottom: 2rem;
+        margin-left: 0vw;
+    }
+    .inputlogin{
+        width: 80vw;
+        height: 2.3rem;
+        padding-left: 1rem;
+        font-size: 1.2rem;
+    }
+    
+}
