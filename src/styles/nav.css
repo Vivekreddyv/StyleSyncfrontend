@@ -68,9 +68,6 @@ a:active { text-decoration: none; }
 .hamburgermenuclose{
     display: none;
 }
-.mobcart{
-    display: none;
-}
 /* media querys */
 @media screen and (max-width:720px) {
     .nav{
@@ -78,7 +75,7 @@ a:active { text-decoration: none; }
         width: 100%;
         display: flex;
         justify-content: space-around;
-        gap: 30vw;
+        gap: 40vw;
         align-items: center;
         box-shadow: 0 4px 5px -5px rgba(0,0,0,.23);
         position: fixed;
@@ -136,7 +133,7 @@ a:active { text-decoration: none; }
     .hamburgermenudiv{
         display: flex;
         flex-direction: column;
-        margin-top: 35vh;
+        margin-top: 25vh;
         align-items: center;
     }
     .loginsignupmob{
@@ -150,5 +147,29 @@ a:active { text-decoration: none; }
         background-color: white;
         margin-right: 0.5rem;
     }
-    
+    .navlistmob{
+        list-style: none;
+        color: black;
+        font-family: 'blinker';
+        font-size: 1.15rem;
+        font-weight: 400;
+        transition: all 0.2s;
+        margin-bottom: 10px;
+        margin-top: 0.5rem;
+        cursor: pointer;
+        flex-direction: column;
+        display: flex;
+        gap: 0.3rem;
+    }
+    .navlimob{
+        list-style: none;
+        color: black;
+        font-family: 'blinker';
+        font-size: 1.15rem;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    .navlimob:hover{
+        text-decoration: underline;
+    }
 }
