@@ -77,7 +77,7 @@ const Nav =()=>{
                     <Link to='/login'><li style={{fontSize:'2rem'}} className='navli'>LOGIN</li></Link>
                     </div>
                     :<div>
-                        <li className='navli' style={{fontSize:'1.3rem',marginTop:'0.3rem',fontSize:'2rem'}} onClick={handlelogout}>Log Out</li>
+                        <li className='navli' style={{marginTop:'0.3rem',fontSize:'2rem'}} onClick={handlelogout}>Log Out</li>
                         </div>}
                         {(localStorage.getItem("authtoken"))?
                 <div>
