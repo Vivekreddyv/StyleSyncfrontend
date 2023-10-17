@@ -54,7 +54,7 @@ const Body=()=>{
                         <h1 className='featuredtext'>Kitchen</h1>
                     </div>
                 </Link>
-                <Link to='/categories/electronics'>
+                <Link to='/categories/electronic'>
                     <div className='tiles3'>
                     <img className='featuredimg2'src={img4} alt=""></img>
                         <h1 className='featuredtext'>Electronics</h1>
